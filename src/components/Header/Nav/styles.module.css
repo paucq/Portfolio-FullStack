@@ -22,7 +22,8 @@
 .menu .body .navigation {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 24px;
+  padding-bottom: 24px;
 }
 
 .menu .body .nav {
@@ -67,4 +68,11 @@
   line-height: 2rem;
   padding: 12px 12px 10px 12px;
   text-align: center;
+}
+
+@media (width <= 1200px) {
+  .menu .body .nav {
+    font-size: 2rem;
+    gap: 22px;
+  }
 }
