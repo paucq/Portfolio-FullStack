@@ -21,15 +21,28 @@ import { useTransition } from '@/context/TransitionContext'
  */
 const resources = [
   {
-    fileName: 'Desarrollo Web Fullstack 1',
-    filePath: '/fullstack-course/resources/Desarrollo-Web-Fullstack-1.pdf',
+    fileName: '1 Desarrollo Web Fullstack',
+    filePath: '/fullstack-course/resources/1. Desarrollo-Web-Fullstack.pdf',
     fileSize: '2.4 MB',
     fileType: 'pdf' as const,
   },
   {
-    fileName: 'Git History and Essentials',
-    filePath: '/fullstack-course/resources/2.Git_History_Essentials.pdf',
+    fileName: '2 Git History and Essentials',
+    filePath: '/fullstack-course/resources/2. Git_History_Essentials.pdf',
     fileSize: '2.9 MB',
+    fileType: 'pdf' as const,
+  },
+  {
+    fileName: '3. Terminal Unix Linux',
+    filePath: '/fullstack-course/resources/3. Terminal-Unix-Linux.pdf',
+    fileSize: '1.8 MB',
+    fileType: 'pdf' as const,
+  },
+  {
+    fileName: '4 Fundamentos de HTML y Entrega',
+    filePath:
+      '/fullstack-course/resources/Fundamentos-de-HTML-y-Primera-Entrega.pdf',
+    fileSize: '0.4 MB',
     fileType: 'pdf' as const,
   },
   // Add more resources here as needed
